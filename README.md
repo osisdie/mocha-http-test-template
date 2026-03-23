@@ -1,10 +1,10 @@
-# node-tiny-mocha-HTTP-unittest
+# mocha-http-test-template
 
-[![CI](https://github.com/osisdie/node-tiny-mocha-HTTP-unittest/actions/workflows/ci.yml/badge.svg)](https://github.com/osisdie/node-tiny-mocha-HTTP-unittest/actions/workflows/ci.yml)
-[![License](https://img.shields.io/github/license/osisdie/node-tiny-mocha-HTTP-unittest)](LICENSE)
+[![CI](https://github.com/osisdie/mocha-http-test-template/actions/workflows/ci.yml/badge.svg)](https://github.com/osisdie/mocha-http-test-template/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/osisdie/mocha-http-test-template)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D14-brightgreen)](https://nodejs.org/)
 
-A minimal Node.js application that reads endpoint configurations from a JSON file and runs HTTP tests using [Mocha](https://mochajs.org/) + [Axios](https://axios-http.com/). A single `forEach` loop drives the entire test scenario -- use it as a template for your own HTTP integration tests.
+Minimal Mocha + Axios template for JSON-driven HTTP endpoint testing. Define your endpoints in a config file, and a single `forEach` loop runs the entire test scenario.
 
 *series of code_for_fun*
 
@@ -16,8 +16,8 @@ A minimal Node.js application that reads endpoint configurations from a JSON fil
 
 ```sh
 # Clone the repository
-git clone https://github.com/osisdie/node-tiny-mocha-HTTP-unittest.git
-cd node-tiny-mocha-HTTP-unittest
+git clone https://github.com/osisdie/mocha-http-test-template.git
+cd mocha-http-test-template
 
 # Install dependencies
 npm install
@@ -59,4 +59,4 @@ Groups named `example` are automatically skipped during test runs.
 
 ## License
 
-[BSD-3-Clause](LICENSE) &copy; Kevin Wu
+[MIT](LICENSE)

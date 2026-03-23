@@ -1,17 +1,19 @@
 {
-  "name": "node-tiny-mocha-http-unittest",
+  "name": "mocha-http-test-template",
   "version": "0.1.0",
-  "description": "Minimal Mocha + Axios HTTP integration test template driven by a JSON config file",
+  "description": "Minimal Mocha + Axios template for JSON-driven HTTP endpoint testing",
   "private": true,
-  "license": "BSD-3-Clause",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/osisdie/node-tiny-mocha-HTTP-unittest.git"
+    "url": "https://github.com/osisdie/mocha-http-test-template.git"
   },
   "keywords": [
     "mocha",
     "http",
-    "unittest",
+    "integration-testing",
+    "template",
+    "starter",
     "axios",
     "integration-test"
   ],
