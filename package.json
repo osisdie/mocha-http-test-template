@@ -1,8 +1,25 @@
 {
-  "name": "http_test",
-  "version": "0.0.1",
+  "name": "node-tiny-mocha-http-unittest",
+  "version": "0.1.0",
+  "description": "Minimal Mocha + Axios HTTP integration test template driven by a JSON config file",
   "private": true,
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/osisdie/node-tiny-mocha-HTTP-unittest.git"
+  },
+  "keywords": [
+    "mocha",
+    "http",
+    "unittest",
+    "axios",
+    "integration-test"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
   "scripts": {
+    "start": "node app.js",
     "test": "mocha --timeout 15000"
   },
   "dependencies": {

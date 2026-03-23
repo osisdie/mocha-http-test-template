@@ -1,6 +1,13 @@
 # temp
 output/
 
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+
 # Logs
 logs
 *.log
